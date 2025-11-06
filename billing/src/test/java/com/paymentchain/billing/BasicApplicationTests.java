@@ -10,7 +10,7 @@ public class BasicApplicationTests  {
 
     @Test
     void contextLoads() {
-       String message = "Default Message";
+       String message = "Default Message integración continua con Jenkins y Docker";
        System.out.println("Mensaje: " + message);
        assertNotNull(message);
     }
